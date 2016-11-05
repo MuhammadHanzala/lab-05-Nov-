@@ -5,6 +5,11 @@
 // }
 // cook();
 
+
+
+
+
+
 // var num1 = prompt("Enter first num");
 // var num2 = prompt("Enter sec num");
 // var num3 = prompt("Enter third num"); 
@@ -19,6 +24,10 @@
 //     }
 // }
 // calc(num1, num2, num3);
+
+
+
+
 
 // var num1 = prompt("Enter first num");
 // var num2 = prompt("Enter sec num");
@@ -36,27 +45,42 @@
 // calc(num1, num2, num3);
 
 
-var ingd1 = ['egg','salt','sugar'];
-var ingd2 = ['water','egg','milk'];
-var ingd3 = ['flour','sugar','milk'];
-var allingd = [];
 
-function combineIngrd(ing1, ing2, ing3){
-    for(var i = 0; i < ing1.length; i++){
-        if(allingd.indexOf(ing1[i]) == -1){
-            allingd.push(ing1[i]);
-        }
-    }
-        for(var i = 0; i < ing2.length; i++){
-        if(allingd.indexOf(ing2[i]) == -1){
-            allingd.push(ing2[i]);
-        }
-    }
-        for(var i = 0; i < ing3.length; i++){
-        if(allingd.indexOf(ing3[i]) == -1){
-            allingd.push(ing3[i]);
-        }
-    }
-    alert(allingd);
-}
-combineIngrd(ingd1, ingd2, ingd3);
+
+
+
+// var ingd1 = ['egg','salt','sugar'];
+// var ingd2 = ['water','egg','milk'];
+// var ingd3 = ['flour','sugar','milk'];
+// var allingd = [];
+
+// function combineIngrd(ing1, ing2, ing3){
+//     for(var i = 0; i < ing1.length; i++){
+//         if(allingd.indexOf(ing1[i]) == -1){
+//             allingd.push(ing1[i]);
+//         }
+//     }
+//         for(var i = 0; i < ing2.length; i++){
+//         if(allingd.indexOf(ing2[i]) == -1){
+//             allingd.push(ing2[i]);
+//         }
+//     }
+//         for(var i = 0; i < ing3.length; i++){
+//         if(allingd.indexOf(ing3[i]) == -1){
+//             allingd.push(ing3[i]);
+//         }
+//     }
+//     alert(allingd);
+// }
+// combineIngrd(ingd1, ingd2, ingd3);
+
+
+
+
+// var num = prompt("Enter the number");
+// function squareNum(number){
+//     result = number*number;
+//     return result;
+// }
+// var squarednum = squareNum(num);
+// alert(squarednum);
